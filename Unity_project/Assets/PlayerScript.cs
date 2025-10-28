@@ -30,8 +30,16 @@ public class PlayerScript : MonoBehaviour
 
         // Horizontal movement
         float moveX = 0f;
-        if (Input.GetKey(KeyCode.D)) moveX = 1f;
-        if (Input.GetKey(KeyCode.A)) moveX = -1f;
+        if (Input.GetKey(KeyCode.D))
+        {
+            Debug.Log("moveX: " + moveX);
+            moveX = 1f;
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            Debug.Log("moveX: " + moveX);
+            moveX = -1f;
+        }
         rb.linearVelocity = new Vector2(moveX * speed, rb.linearVelocity.y);
 
         // Jump
