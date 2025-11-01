@@ -1316,6 +1316,75 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &1762774092
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1784707707061461129, guid: 2e4c7fb298f238d49ba8a30f99a9eedc, type: 3}
+      propertyPath: m_Name
+      value: SceneTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506324100015348072, guid: 2e4c7fb298f238d49ba8a30f99a9eedc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 31.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506324100015348072, guid: 2e4c7fb298f238d49ba8a30f99a9eedc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.87687
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506324100015348072, guid: 2e4c7fb298f238d49ba8a30f99a9eedc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506324100015348072, guid: 2e4c7fb298f238d49ba8a30f99a9eedc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506324100015348072, guid: 2e4c7fb298f238d49ba8a30f99a9eedc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506324100015348072, guid: 2e4c7fb298f238d49ba8a30f99a9eedc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506324100015348072, guid: 2e4c7fb298f238d49ba8a30f99a9eedc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506324100015348072, guid: 2e4c7fb298f238d49ba8a30f99a9eedc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506324100015348072, guid: 2e4c7fb298f238d49ba8a30f99a9eedc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506324100015348072, guid: 2e4c7fb298f238d49ba8a30f99a9eedc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8387040865763325894, guid: 2e4c7fb298f238d49ba8a30f99a9eedc, type: 3}
+      propertyPath: _scenesToUnload.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8387040865763325894, guid: 2e4c7fb298f238d49ba8a30f99a9eedc, type: 3}
+      propertyPath: _scenesToUnload.Array.data[0].m_SceneName
+      value: WestSuburbs-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8387040865763325894, guid: 2e4c7fb298f238d49ba8a30f99a9eedc, type: 3}
+      propertyPath: _scenesToUnload.Array.data[0].m_SceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: de3e77da971f87f4f88bee6329e8a454, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2e4c7fb298f238d49ba8a30f99a9eedc, type: 3}
 --- !u!1 &1780024592
 GameObject:
   m_ObjectHideFlags: 0
@@ -1368,3 +1437,4 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1780024594}
+  - {fileID: 1762774092}
