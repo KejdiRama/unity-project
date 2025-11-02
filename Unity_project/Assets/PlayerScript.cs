@@ -12,7 +12,7 @@ public class PlayerScript : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
     private float groundCheckRadius = 0.1f;
-
+    [SerializeField] private Animator animator;
     bool isGrounded;
     private bool isJumping;
     private float jumpTimeCounter;
@@ -32,10 +32,15 @@ public class PlayerScript : MonoBehaviour
         float moveX = 0f;
         if (Input.GetKey(KeyCode.D))
         {
+            animator.SetBool("isWalking", true);
             moveX = 1f;
+        }
+        else 
+        { animator.SetBool("isWalking", false); 
         }
         if (Input.GetKey(KeyCode.A))
         {
+            animator.SetBool("isWalking", true);
             moveX = -1f;
         }
         rb.linearVelocity = new Vector2(moveX * speed, rb.linearVelocity.y);
